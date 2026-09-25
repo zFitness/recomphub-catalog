@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "gameId": "dusklight",
+      "title": "Dusklight",
+      "titleCn": "暮光公主重编译",
+      "platform": "NGC",
+      "runtimePlatforms": ["windows", "macos", "linux", "android", "ios"],
+      "genres": "Action Adventure",
+      "description": "Twilight Princess 的静态重编译项目，提供 Windows、macOS、Linux、Android 和 iOS 构建。",
+      "projectUrl": "https://github.com/TwilitRealm/dusklight",
+      "coverUrl": null,
+      "github": {
+        "owner": "TwilitRealm",
+        "repository": "dusklight",
+        "branch": "main"
+      },
+      "versionStrategy": "release",
+      "fallback": ["tag"],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "zelda64recomp",
+      "title": "Zelda 64 Recompiled",
+      "titleCn": "塞尔达 64 重编译",
+      "platform": "N64",
+      "runtimePlatforms": ["windows", "linux", "macos"],
+      "genres": "Action Adventure",
+      "description": "Majora's Mask 的静态重编译项目，面向桌面平台发布。",
+      "projectUrl": "https://github.com/Zelda64Recomp/Zelda64Recomp",
+      "coverUrl": null,
+      "github": {
+        "owner": "Zelda64Recomp",
+        "repository": "Zelda64Recomp",
+        "branch": "dev"
+      },
+      "versionStrategy": "release",
+      "fallback": ["commit"],
+      "tagPattern": null,
+      "enabled": true
+    }
+  ]
+}

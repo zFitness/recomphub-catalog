@@ -1,0 +1,69 @@
+name: Sync catalog
+
+on:
+  schedule:
+    # 避开整点，减轻 GitHub 调度抖动与限流叠加。
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sync-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    # 定时任务只在默认分支运行；手动触发也限制在默认分支，避免从特性分支发布。
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate source registry
+        run: python3 scripts/sync_catalog.py validate
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Sync catalog
+        env:
+          # 仅通过环境变量注入；不写入仓库文件，也不进入 App。
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/sync_catalog.py sync
+
+      - name: Commit catalog changes
+        run: |
+          if git diff --quiet -- catalog/ state/last-known.json; then
+            echo "No catalog changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalog/ state/last-known.json
+          git commit -m "chore(catalog): sync games.json and manifest"
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: catalog
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

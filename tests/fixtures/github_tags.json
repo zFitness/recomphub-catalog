@@ -1,0 +1,10 @@
+[
+  {
+    "name": "v2.0.1",
+    "commit": {"sha": "422d7bb1b6c8d973cccf8b3d0b226a57ac3cc8c7"}
+  },
+  {
+    "name": "v2.0.0",
+    "commit": {"sha": "e9b120544cb75e81b5aa36777f1688fa61f2d9e8"}
+  }
+]

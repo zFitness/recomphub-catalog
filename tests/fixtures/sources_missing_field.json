@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "gameId": "dusklight",
+      "title": "Dusklight",
+      "platform": "NGC",
+      "github": {"owner": "TwilitRealm", "repository": "dusklight"},
+      "versionStrategy": "release",
+      "enabled": true
+    }
+  ]
+}

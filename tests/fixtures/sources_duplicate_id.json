@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "gameId": "dusklight",
+      "title": "Dusklight",
+      "platform": "NGC",
+      "runtimePlatforms": ["windows"],
+      "github": {"owner": "TwilitRealm", "repository": "dusklight"},
+      "versionStrategy": "release",
+      "enabled": true
+    },
+    {
+      "gameId": "dusklight",
+      "title": "重复条目",
+      "platform": "NGC",
+      "runtimePlatforms": ["windows"],
+      "github": {"owner": "TwilitRealm", "repository": "dusklight"},
+      "versionStrategy": "release",
+      "enabled": true
+    }
+  ]
+}
