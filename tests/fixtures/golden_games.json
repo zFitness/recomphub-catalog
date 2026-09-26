@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "games": [
+    {
+      "gameId": "dusklight",
+      "title": "Dusklight",
+      "titleCn": "暮光",
+      "platform": "NGC",
+      "runtimePlatforms": [
+        "windows",
+        "android"
+      ],
+      "genres": "Action Adventure",
+      "description": "示例描述",
+      "projectUrl": "https://github.com/TwilitRealm/dusklight",
+      "coverUrl": null,
+      "source": {
+        "owner": "TwilitRealm",
+        "repository": "dusklight",
+        "url": "https://github.com/TwilitRealm/dusklight",
+        "version": "v2.0.1",
+        "versionType": "release",
+        "versionUrl": "https://github.com/TwilitRealm/dusklight/releases/tag/v2.0.1",
+        "revision": "422d7bb1b6c8d973cccf8b3d0b226a57ac3cc8c7",
+        "publishedAt": "2026-09-20T00:36:12Z",
+        "observedAt": "2026-09-25T00:00:00Z",
+        "status": "ok"
+      }
+    }
+  ]
+}

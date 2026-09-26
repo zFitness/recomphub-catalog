@@ -1,3 +1,2 @@
 state/last-run.json
-__pycache__/
-*.pyc
+node_modules/

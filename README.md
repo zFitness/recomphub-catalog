@@ -15,8 +15,13 @@ catalog/games.json                   # 生成产物：完整目录
 catalog/games.manifest.json          # 生成产物：小型更新清单
 state/last-known.json                # 同步器内部状态
 state/last-run.json                  # 最近一次运行报告
-scripts/sync_catalog.py              # 同步器（仅标准库）
-tests/                               # 生成器 / API client 测试
+src/                                 # 同步器（TypeScript，Node 原生运行，无运行时依赖）
+  sync_catalog.ts                    # CLI 入口（validate / sync）
+  catalog.ts                         # 合并人工字段、生成目录与 manifest
+  github_client.ts                   # GitHub REST client 与版本解析
+  validation.ts                      # sources.json / 目录校验
+tests/                               # 生成器 / API client 测试（node:test）
+package.json / tsconfig.json         # 脚本、类型检查配置
 .github/workflows/sync-catalog.yml   # Actions workflow
 docs/schema.md                       # 字段、约束与版本兼容策略
 ```
@@ -37,10 +42,15 @@ raw 备用/诊断入口（不作为客户端唯一承诺）：
 
 ## 本地运行
 
+需要 Node.js 22.18+（本仓库在 Node 24 上验证），由 Node 原生执行 TypeScript，
+无需构建步骤：
+
 ```bash
-python3 scripts/sync_catalog.py validate   # 只校验 sources.json
-GITHUB_TOKEN=<token> python3 scripts/sync_catalog.py sync
-python3 -m unittest discover -s tests -v
+npm install                                # 安装开发依赖（仅 typescript / @types/node）
+npm run validate                           # 只校验 sources.json
+GITHUB_TOKEN=<token> npm run sync          # 解析、合并、生成目录
+npm run typecheck                          # tsc --noEmit
+npm test                                   # node:test 单元测试
 ```
 
 `sync` 只在规范化目录内容变化时写入 `catalog/`，未变化时不产生提交。

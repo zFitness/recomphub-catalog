@@ -1,0 +1,21 @@
+{
+  "name": "recomphub-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RecompHub catalog synchronizer",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "validate": "node src/sync_catalog.ts validate",
+    "sync": "node src/sync_catalog.ts sync",
+    "test": "node --test tests/sync_catalog.test.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.8.0"
+  }
+}

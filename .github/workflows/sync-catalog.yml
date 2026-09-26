@@ -27,22 +27,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
+          node-version: "24"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check
+        run: npm run typecheck
 
       - name: Validate source registry
-        run: python3 scripts/sync_catalog.py validate
+        run: npm run validate
 
       - name: Run unit tests
-        run: python3 -m unittest discover -s tests -v
+        run: npm test
 
       - name: Sync catalog
         env:
           # 仅通过环境变量注入；不写入仓库文件，也不进入 App。
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/sync_catalog.py sync
+        run: npm run sync
 
       - name: Commit catalog changes
         run: |
