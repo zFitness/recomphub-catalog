@@ -2,11 +2,597 @@
   "schemaVersion": 1,
   "games": [
     {
+      "gameId": "999sian-tmc",
+      "title": "The Legend of Zelda: The Minish Cap PC Port",
+      "titleCn": "缩小帽移植版",
+      "platform": "GBA",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Puzzle",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/999sian/tmc",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/the-legend-of-zelda-the-minish-cap-pc-port.webp",
+      "github": {
+        "owner": "999sian",
+        "repository": "tmc",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "akratch-golden-balloon",
+      "title": "Golden Balloon - Diddy Kong Racing Recompilation",
+      "titleCn": "迪迪刚赛车重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Golden Balloon - Diddy Kong Racing》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/akratch/golden-balloon",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/golden-balloon-diddy-kong-racing-recompilation.webp",
+      "github": {
+        "owner": "akratch",
+        "repository": "golden-balloon",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "alexbeav-psxrecomp-ports",
+      "title": "Alexbeav's PS1 Recomps",
+      "titleCn": "Alexbeav 的 PS1 重编译合集",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action",
+      "description": "这是社区保存/移植目录中的项目。现有公开条目主要提供项目链接，缺少足够资料来可靠概括销量或行业评价；突出点可先理解为现代平台兼容与长期保存价值。",
+      "projectUrl": "https://github.com/Alexbeav/psxrecomp-ports",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/alexbeavs-ps1-recomps.webp",
+      "github": {
+        "owner": "Alexbeav",
+        "repository": "psxrecomp-ports",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "alexbeav-syphon-filter-2-recompiled",
+      "title": "Syphon Filter 2 Recompilation",
+      "titleCn": "虹吸战士重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Stealth",
+      "description": "这是《Syphon Filter 2》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Alexbeav/syphon-filter-2-recompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/syphon-filter-2-recompilation.webp",
+      "github": {
+        "owner": "Alexbeav",
+        "repository": "syphon-filter-2-recompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "alondero-automobililamborghini-recomp",
+      "title": "Automobili Lamborghini Recompilation",
+      "titleCn": "兰博基尼赛车重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Automobili Lamborghini》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/alondero/automobililamborghini-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/automobili-lamborghini-recompilation.webp",
+      "github": {
+        "owner": "alondero",
+        "repository": "automobililamborghini-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "arcanite24-pinyon-shift",
+      "title": "Forza Horizon Recompilation",
+      "titleCn": "极限竞速：地平线重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Forza Horizon》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/arcanite24/pinyon-shift",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/forza-horizon-recompilation.webp",
+      "github": {
+        "owner": "arcanite24",
+        "repository": "pinyon-shift",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "banjorecomp-banjorecomp",
+      "title": "Banjo Kazooie Recompilation",
+      "titleCn": "班卓熊大冒险重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "Rare 在任天堂 64 时代的 3D 平台代表作，以收集、探索和双角色能力见长；重编译项目使高分辨率、宽屏和 PC 模组成为可能。",
+      "projectUrl": "https://github.com/BanjoRecomp/BanjoRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/banjo-kazooie-recompilation.webp",
+      "github": {
+        "owner": "BanjoRecomp",
+        "repository": "BanjoRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "beatrixzy-pgr4-recomp",
+      "title": "Project Gotham Racing 4 Recompilation",
+      "titleCn": "都市赛车计划重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Project Gotham Racing 4》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/beatrixzy/PGR4-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/project-gotham-racing-4-recompilation.webp",
+      "github": {
+        "owner": "beatrixzy",
+        "repository": "PGR4-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "birabittoh-eternalsonatareprise",
+      "title": "Eternal Sonata Recompilation",
+      "titleCn": "永恒交响曲重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Action",
+      "description": "这是《Eternal Sonata》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/birabittoh/EternalSonataReprise",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/eternal-sonata-recompilation.webp",
+      "github": {
+        "owner": "birabittoh",
+        "repository": "EternalSonataReprise",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "birabittoh-kameorepowered",
+      "title": "Kameo: Elements of Power Recompilation",
+      "titleCn": "卡美奥：元素之力重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Action",
+      "description": "这是《Kameo: Elements of Power》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/birabittoh/KameoRePowered",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/kameo-elements-of-power-recompilation.webp",
+      "github": {
+        "owner": "birabittoh",
+        "repository": "KameoRePowered",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "birabittoh-nocturnerecomp",
+      "title": "NocturneRecomp - Castlevania Symphony of the Night XBLA Recompilation",
+      "titleCn": "恶魔城重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Metroidvania",
+      "description": "恶魔城系列长期影响动作平台和探索型动作游戏；《暗黑的诅咒》与《月下夜想曲》等作品在系列历史中各有代表性，社区重编译有助于修复兼容性并延长可玩性。",
+      "projectUrl": "https://github.com/birabittoh/NocturneRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/nocturnerecomp-castlevania-symphony-of-the-night-xbla-recompilation.webp",
+      "github": {
+        "owner": "birabittoh",
+        "repository": "NocturneRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "blacklabelhq-symphonyrecomp",
+      "title": "Castlevania Symphony of the Night Recompilation",
+      "titleCn": "恶魔城重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Metroidvania, RPG",
+      "description": "恶魔城系列长期影响动作平台和探索型动作游戏；《暗黑的诅咒》与《月下夜想曲》等作品在系列历史中各有代表性，社区重编译有助于修复兼容性并延长可玩性。",
+      "projectUrl": "https://github.com/BlackLabelHQ/SymphonyRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/castlevania-symphony-of-the-night-recompilation.webp",
+      "github": {
+        "owner": "BlackLabelHQ",
+        "repository": "SymphonyRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "boron853-souls-of-the-reaper",
+      "title": "Diablo 3 Xbox 360 Recompilation",
+      "titleCn": "暗黑破坏神 3重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Action",
+      "description": "这是《Diablo 3 Xbox 360》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Boron853/Souls-of-the-Reaper",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/diablo-3-xbox-360-recompilation.webp",
+      "github": {
+        "owner": "Boron853",
+        "repository": "Souls-of-the-Reaper",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "cdlewis-snowboardkids2-recomp",
+      "title": "Snowboard Kids 2 Recompilation",
+      "titleCn": "滑雪小子重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Snowboard Kids 2》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/cdlewis/snowboardkids2-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/snowboard-kids-2-recompilation.webp",
+      "github": {
+        "owner": "cdlewis",
+        "repository": "snowboardkids2-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "cellenseres-sssv-recomp",
+      "title": "Space Station Silicon Valley Recompilation",
+      "titleCn": "硅谷空间站重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Puzzle",
+      "description": "这是《Space Station Silicon Valley》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Cellenseres/SSSV_Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/space-station-silicon-valley-recompilation.webp",
+      "github": {
+        "owner": "Cellenseres",
+        "repository": "SSSV_Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "coccofresco-triaevum",
+      "title": "The Legend of Zelda: Ocarina of Time 3D Recompilation",
+      "titleCn": "塞尔达传说：时之笛重编译",
+      "platform": "N3DS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Adventure",
+      "description": "1998 年《时之笛》常被视为 3D 动作冒险设计的里程碑，锁定系统、场景结构和音乐影响深远；Ship of Harkinian 让经典作品获得高分辨率、宽屏和模组生态。",
+      "projectUrl": "https://github.com/coccofresco/TriAevum",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/the-legend-of-zelda-ocarina-of-time-3d-recompilation.webp",
+      "github": {
+        "owner": "coccofresco",
+        "repository": "TriAevum",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "ctr-tools-ctr-native",
+      "title": "Crash Team Racing PC Port",
+      "titleCn": "古惑狼赛车移植版",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/CTR-tools/ctr-native",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/crash-team-racing-pc-port.webp",
+      "github": {
+        "owner": "CTR-tools",
+        "repository": "ctr-native",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "cybervisi0n-pokeplatinum",
+      "title": "Pokemon Platinum PC Port",
+      "titleCn": "宝可梦移植版",
+      "platform": "NDS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Creature Collector",
+      "description": "宝可梦系列是全球最成功的跨媒体 IP 之一，掌机交换、收集和对战机制形成了持久社群；这些重编译/端口项目的重点是现代平台保存，而不是重新发行官方版本。",
+      "projectUrl": "https://github.com/cybervisi0n/pokeplatinum",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/pokemon-platinum-pc-port.webp",
+      "github": {
+        "owner": "cybervisi0n",
+        "repository": "pokeplatinum",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "danielgomesvieira2000-wave-race-64-recomp",
+      "title": "Wave Race 64 Recompilation",
+      "titleCn": "水上摩托 64重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Wave Race 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/danielgomesvieira2000/wave-race-64-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/wave-race-64-recompilation.webp",
+      "github": {
+        "owner": "danielgomesvieira2000",
+        "repository": "wave-race-64-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "dinosaurplanetrecomp-dino-recomp",
+      "title": "Dinosaur Planet Recompilation",
+      "titleCn": "恐龙星球重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Adventure",
+      "description": "原本计划为任天堂 64 游戏、后来演变为《星际火狐：恐龙星球》；未发行原型和后续保存工作使它具有很强的游戏史与开发史价值。",
+      "projectUrl": "https://github.com/DinosaurPlanetRecomp/dino-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dinosaur-planet-recompilation.webp",
+      "github": {
+        "owner": "DinosaurPlanetRecomp",
+        "repository": "dino-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
       "gameId": "dusklight",
       "title": "Dusklight",
       "titleCn": "暮光公主重编译",
       "platform": "NGC",
-      "runtimePlatforms": ["windows", "macos", "linux", "android", "ios"],
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
       "genres": "Action Adventure",
       "description": "Twilight Princess 的静态重编译项目，提供 Windows、macOS、Linux、Android 和 iOS 构建。",
       "projectUrl": "https://github.com/TwilitRealm/dusklight",
@@ -17,7 +603,3605 @@
         "branch": "main"
       },
       "versionStrategy": "release",
-      "fallback": ["tag"],
+      "fallback": [
+        "tag"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "eandis-sdoj-recomp",
+      "title": "Dodonpachi Saidaioujou Recompilation",
+      "titleCn": "怒首领蜂重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Shoot Em Up, Action",
+      "description": "这是《Dodonpachi Saidaioujou》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/eandis/SDOJ-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dodonpachi-saidaioujou-recompilation.webp",
+      "github": {
+        "owner": "eandis",
+        "repository": "SDOJ-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "ed1z19-valkyrierecomp",
+      "title": "Valkyrie Profile Recompilation",
+      "titleCn": "女神侧身像重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Strategy, RPG",
+      "description": "Tri-Ace 的作品以北欧神话、章节叙事和独特战斗系统著称，在 PlayStation RPG 中具有鲜明风格；重编译项目主要承担保存和现代化运行价值。",
+      "projectUrl": "https://github.com/Ed1z19/ValkyrieRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/valkyrie-profile-recompilation.webp",
+      "github": {
+        "owner": "Ed1z19",
+        "repository": "ValkyrieRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "elprogramadorloco-arch-fuc-recomp",
+      "title": "Fate Unlimited Codes Recompilation",
+      "titleCn": "命运：无限代码重编译",
+      "platform": "PSP",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Fate Unlimited Codes》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/elprogramadorloco-arch/fuc-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/fate-unlimited-codes-recompilation.webp",
+      "github": {
+        "owner": "elprogramadorloco-arch",
+        "repository": "fuc-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "ethan4love-digimon-world-psx-recomp",
+      "title": "Digimon World Recompilation",
+      "titleCn": "数码宝贝世界重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Creature Collector",
+      "description": "这是《Digimon World》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Ethan4love/Digimon-world-PSX-RECOMP",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/digimon-world-recompilation.webp",
+      "github": {
+        "owner": "Ethan4love",
+        "repository": "Digimon-world-PSX-RECOMP",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "expansionpak-moderngekko",
+      "title": "Kirby's Return to Dream Land Recompilation",
+      "titleCn": "星之卡比：重返梦幻岛重编译",
+      "platform": "WII",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是《Kirby's Return to Dream Land》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/ExpansionPak/ModernGekko",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/kirbys-return-to-dream-land-recompilation.webp",
+      "github": {
+        "owner": "ExpansionPak",
+        "repository": "ModernGekko",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "fabioap-cpu-soulblade-recomp",
+      "title": "Soul Blade Recompilation",
+      "titleCn": "魂之利刃重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Soul Blade》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/fabioap-cpu/SoulBlade_Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/soul-blade-recompilation.webp",
+      "github": {
+        "owner": "fabioap-cpu",
+        "repository": "SoulBlade_Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "fabioap-cpu-tekken3recomp",
+      "title": "Tekken 3 Recompilation",
+      "titleCn": "铁拳重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "铁拳系列是 3D 格斗游戏的长期标杆，角色阵容、墙边战和动作捕捉影响了整个类型；社区重编译项目主要提供现代运行和画质扩展。",
+      "projectUrl": "https://github.com/fabioap-cpu/Tekken3Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/tekken-3-recompilation.webp",
+      "github": {
+        "owner": "fabioap-cpu",
+        "repository": "Tekken3Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "fgsfdsfgs-perfect-dark",
+      "title": "Perfect Dark PC Port",
+      "titleCn": "完美黑暗移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "First Person Shooter",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/fgsfdsfgs/perfect_dark",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/perfect-dark-pc-port.webp",
+      "github": {
+        "owner": "fgsfdsfgs",
+        "repository": "perfect_dark",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "fliperama86-cvlod-recomp",
+      "title": "Castlevania Legacy of Darkness Recompilation",
+      "titleCn": "恶魔城重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action",
+      "description": "恶魔城系列长期影响动作平台和探索型动作游戏；《暗黑的诅咒》与《月下夜想曲》等作品在系列历史中各有代表性，社区重编译有助于修复兼容性并延长可玩性。",
+      "projectUrl": "https://github.com/fliperama86/cvlod_recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/castlevania-legacy-of-darkness-recompilation.webp",
+      "github": {
+        "owner": "fliperama86",
+        "repository": "cvlod_recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "florinp93-hells-gate-recomp",
+      "title": "Dante's Inferno Recompilation",
+      "titleCn": "但丁地狱重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Adventure",
+      "description": "这是《Dante's Inferno》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/florinp93/hells-gate-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dantes-inferno-recompilation.webp",
+      "github": {
+        "owner": "florinp93",
+        "repository": "hells-gate-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "florinp93-xmd-recompiled",
+      "title": "X-Men Destiny Recompilation",
+      "titleCn": "X 战警重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Beat Em Up, Action",
+      "description": "这是《X-Men Destiny》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/florinp93/xmd-recompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/x-men-destiny-recompilation.webp",
+      "github": {
+        "owner": "florinp93",
+        "repository": "xmd-recompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "fluffyquack-rexglue-exit",
+      "title": "EXIT 1 & 2  Recompilation",
+      "titleCn": "逃脱 1 与 2重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Puzzle",
+      "description": "这是《EXIT 1 & 2 》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/FluffyQuack/ReXGlue-EXIT",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/exit-1-2-recompilation.webp",
+      "github": {
+        "owner": "FluffyQuack",
+        "repository": "ReXGlue-EXIT",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "fluffyquack-rexglue-metalslugxx",
+      "title": "Metal Slug XX Recompilation",
+      "titleCn": "合金弹头重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Shoot Em Up",
+      "description": "SNK 的横版射击系列以手绘动画、夸张载具和高密度敌人形成鲜明风格，是街机合作射击的经典；社区重编译让老作品更容易在现代环境运行。",
+      "projectUrl": "https://github.com/FluffyQuack/rexglue-MetalSlugXX",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/metal-slug-xx-recompilation.webp",
+      "github": {
+        "owner": "FluffyQuack",
+        "repository": "rexglue-MetalSlugXX",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "flyngmt-acgc-pc-port",
+      "title": "Animal Crossing PC Port",
+      "titleCn": "动物森友会移植版",
+      "platform": "NGC",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Life Simulator, Sandbox",
+      "description": "任天堂生活模拟系列以实时钟、收集、社交和低压力节奏形成独特长期运营模式；PC 端口和纹理项目主要体现保存与现代显示适配价值。",
+      "projectUrl": "https://github.com/flyngmt/ACGC-PC-Port",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/animal-crossing-pc-port.webp",
+      "github": {
+        "owner": "flyngmt",
+        "repository": "ACGC-PC-Port",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "freefrank-lostodysseyrecomp",
+      "title": "Lost Odyssey Recompilation",
+      "titleCn": "失落的奥德赛重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG",
+      "description": "这是《Lost Odyssey》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/freefrank/LostOdysseyRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/lost-odyssey-recompilation.webp",
+      "github": {
+        "owner": "freefrank",
+        "repository": "LostOdysseyRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "gtteancum-jet-moto-anthology",
+      "title": "Jet Moto Anthology Recompilation",
+      "titleCn": "喷气摩托重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Jet Moto Anthology》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/GTTeancum/Jet-Moto-Anthology",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/jet-moto-anthology-recompilation.webp",
+      "github": {
+        "owner": "GTTeancum",
+        "repository": "Jet-Moto-Anthology",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "gtteancum-sote-recomp",
+      "title": "Star Wars: Shadows of the Empire Recompilation",
+      "titleCn": "星球大战重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Third Person Shooter, Action",
+      "description": "这是《Star Wars: Shadows of the Empire》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/GTTeancum/SotE-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/star-wars-shadows-of-the-empire-recompilation.webp",
+      "github": {
+        "owner": "GTTeancum",
+        "repository": "SotE-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "gtteancum-xmen-mutant-academy-2-pc",
+      "title": "X-Men: Mutant Academy 2 Recompilation",
+      "titleCn": "X 战警重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《X-Men: Mutant Academy 2》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/GTTeancum/xmen-mutant-academy-2-pc",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/x-men-mutant-academy-2-recompilation.webp",
+      "github": {
+        "owner": "GTTeancum",
+        "repository": "xmen-mutant-academy-2-pc",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "guimaraf-3sxw",
+      "title": "Street Fighter III Third Strike PC Port",
+      "titleCn": "街头霸王移植版",
+      "platform": "PS2",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "街头霸王系列尤其是 II 与 III 系列，对格斗游戏的角色、必杀技、连段和街机竞技文化影响深远；重编译项目的价值在于保存不同版本和扩展本地/现代运行支持。",
+      "projectUrl": "https://github.com/guimaraf/3sxw",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/street-fighter-iii-third-strike-pc-port.webp",
+      "github": {
+        "owner": "guimaraf",
+        "repository": "3sxw",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "guimaraf-plusalpha-recomp",
+      "title": "Street Fighter EX Plus Alpha Recompilation",
+      "titleCn": "街头霸王重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "街头霸王系列尤其是 II 与 III 系列，对格斗游戏的角色、必杀技、连段和街机竞技文化影响深远；重编译项目的价值在于保存不同版本和扩展本地/现代运行支持。",
+      "projectUrl": "https://github.com/guimaraf/plusalpha-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/street-fighter-ex-plus-alpha-recompilation.webp",
+      "github": {
+        "owner": "guimaraf",
+        "repository": "plusalpha-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "halmylyseas-vandalhearts-pcport",
+      "title": "Vandal Hearts PC Port",
+      "titleCn": "战国传承移植版",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Strategy",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/HalmyLyseas/VandalHearts-PcPort",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/vandal-hearts-pc-port.webp",
+      "github": {
+        "owner": "HalmyLyseas",
+        "repository": "VandalHearts-PcPort",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "harbourmasters-2ship2harkinian",
+      "title": "2 Ship 2 Harkinian - The Legend of Zelda Majora's Mask PC Port",
+      "titleCn": "塞尔达传说：穆吉拉的假面移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Action",
+      "description": "2000 年任天堂 64 作品，以三日循环、压迫感氛围和面具系统在塞尔达系列中独树一帜；本项目的价值主要是现代平台适配和画面/模组扩展。",
+      "projectUrl": "https://github.com/HarbourMasters/2ship2harkinian",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/2-ship-2-harkinian-the-legend-of-zelda-majoras-mask-pc-port.webp",
+      "github": {
+        "owner": "HarbourMasters",
+        "repository": "2ship2harkinian",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "harbourmasters-ghostship",
+      "title": "Ghostship - Mario 64 PC Port",
+      "titleCn": "幽灵船移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/HarbourMasters/Ghostship",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ghostship-mario-64-pc-port.webp",
+      "github": {
+        "owner": "HarbourMasters",
+        "repository": "Ghostship",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "harbourmasters-lighthouse",
+      "title": "Lighthouse - Banjo Kazooie PC Port",
+      "titleCn": "班卓熊大冒险移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "Rare 在任天堂 64 时代的 3D 平台代表作，以收集、探索和双角色能力见长；重编译项目使高分辨率、宽屏和 PC 模组成为可能。",
+      "projectUrl": "https://github.com/HarbourMasters/Lighthouse",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/lighthouse-banjo-kazooie-pc-port.webp",
+      "github": {
+        "owner": "HarbourMasters",
+        "repository": "Lighthouse",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "harbourmasters-shipwright",
+      "title": "Ship of Harkinian - Zelda Ocarina of Time Port",
+      "titleCn": "塞尔达传说：时之笛移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Adventure",
+      "description": "1998 年《时之笛》常被视为 3D 动作冒险设计的里程碑，锁定系统、场景结构和音乐影响深远；Ship of Harkinian 让经典作品获得高分辨率、宽屏和模组生态。",
+      "projectUrl": "https://github.com/HarbourMasters/Shipwright",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ship-of-harkinian-zelda-ocarina-of-time-port.webp",
+      "github": {
+        "owner": "HarbourMasters",
+        "repository": "Shipwright",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "harbourmasters-spaghettikart",
+      "title": "Spaghetti Kart - Mario Kart 64 PC Port",
+      "titleCn": "马力欧赛车 64移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/HarbourMasters/SpaghettiKart",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/spaghetti-kart-mario-kart-64-pc-port.webp",
+      "github": {
+        "owner": "HarbourMasters",
+        "repository": "SpaghettiKart",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "harbourmasters-starship",
+      "title": "Starship - Star Fox 64 PC Port",
+      "titleCn": "星际火狐 64移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Rail Shooter",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/HarbourMasters/Starship",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/starship-star-fox-64-pc-port.webp",
+      "github": {
+        "owner": "HarbourMasters",
+        "repository": "Starship",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "harvestmoon64recomp-harvestmoon64recomp",
+      "title": "Harvest Moon 64 Recompilation",
+      "titleCn": "牧场物语重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Life Simulator, Farming Simulator",
+      "description": "这是《Harvest Moon 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/harvest-moon-64-recompilation.webp",
+      "github": {
+        "owner": "HarvestMoon64Recomp",
+        "repository": "HarvestMoon64Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "hedge-dev-unleashedrecomp",
+      "title": "Sonic Unleashed Recompilation",
+      "titleCn": "索尼克释放重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是《Sonic Unleashed》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/hedge-dev/UnleashedRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/sonic-unleashed-recompilation.webp",
+      "github": {
+        "owner": "hedge-dev",
+        "repository": "UnleashedRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "heromachine-alienresurrection-recompilation",
+      "title": "Alien Resurrection Recompilation",
+      "titleCn": "异形复活重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "First Person Shooter",
+      "description": "这是《Alien Resurrection》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Heromachine/AlienResurrection-Recompilation",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/alien-resurrection-recompilation.webp",
+      "github": {
+        "owner": "Heromachine",
+        "repository": "AlienResurrection-Recompilation",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "heromachine-tenchu-sa-recomp",
+      "title": "Tenchu: Stealth Assassins Recompilation",
+      "titleCn": "天诛重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Stealth, Action",
+      "description": "《天诛》把潜行、暗杀和忍者题材带入主机市场，是早期潜行动作游戏的重要系列之一；重编译有助于保存其独特关卡与潜行机制。",
+      "projectUrl": "https://github.com/Heromachine/Tenchu-SA-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/tenchu-stealth-assassins-recompilation.webp",
+      "github": {
+        "owner": "Heromachine",
+        "repository": "Tenchu-SA-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "hollywoodakeem-svr07-recomp",
+      "title": "WWE SmackDown vs. Raw 2007 Recompilation",
+      "titleCn": "WWE SmackDown vs. Raw重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《WWE SmackDown vs. Raw 2007》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/HollywoodAkeem/SVR07-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/wwe-smackdown-vs.-raw-2007-recompilation.webp",
+      "github": {
+        "owner": "HollywoodAkeem",
+        "repository": "SVR07-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jackandbeans-snap64recomp",
+      "title": "Pokemon Snap Recompilation",
+      "titleCn": "宝可梦重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Photography, Rail Shooter",
+      "description": "宝可梦系列是全球最成功的跨媒体 IP 之一，掌机交换、收集和对战机制形成了持久社群；这些重编译/端口项目的重点是现代平台保存，而不是重新发行官方版本。",
+      "projectUrl": "https://github.com/JackandBeans/Snap64Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/pokemon-snap-recompilation.webp",
+      "github": {
+        "owner": "JackandBeans",
+        "repository": "Snap64Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jackpoison-prog-ringout",
+      "title": "Soul Calibur 2 Recompilation",
+      "titleCn": "灵魂能力重编译",
+      "platform": "NGC",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Soul Calibur 2》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/jackpoison-prog/RingOut",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/soul-calibur-2-recompilation.webp",
+      "github": {
+        "owner": "jackpoison-prog",
+        "repository": "RingOut",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jamesiv4-sim-copter-remake",
+      "title": "Sim Copter Reimplementation",
+      "titleCn": "模拟直升机",
+      "platform": "PC",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Flight Simulator, Action",
+      "description": "这是《Sim Copter Reimplementation》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/JamesIV4/sim-copter-remake",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/sim-copter-reimplementation.webp",
+      "github": {
+        "owner": "JamesIV4",
+        "repository": "sim-copter-remake",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jessetbh-vpw64recomp",
+      "title": "Virtual Pro Wrestling 64 Recompilation",
+      "titleCn": "虚拟职业摔角 64重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting, Sports",
+      "description": "这是《Virtual Pro Wrestling 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/jessetbh/VPW64Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/virtual-pro-wrestling-64-recompilation.webp",
+      "github": {
+        "owner": "jessetbh",
+        "repository": "VPW64Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jessetbh-wcwnworevengerecomp",
+      "title": "WCW NWo Revenge Recompilation",
+      "titleCn": "WCW nWo 复仇重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting, Sports",
+      "description": "这是《WCW NWo Revenge》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/jessetbh/WCWnWoRevengeRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/wcw-nwo-revenge-recompilation.webp",
+      "github": {
+        "owner": "jessetbh",
+        "repository": "WCWnWoRevengeRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jessetbh-wcwvsnwoworldtourrecomp",
+      "title": "WCW vs. NWo World Tour Recompilation",
+      "titleCn": "WCW vs. nWo 世界巡回赛重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting, Sports",
+      "description": "这是《WCW vs. NWo World Tour》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/jessetbh/WCWvsNWOWorldTourRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/wcw-vs.-nwo-world-tour-recompilation.webp",
+      "github": {
+        "owner": "jessetbh",
+        "repository": "WCWvsNWOWorldTourRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jessetbh-wwfnomercyrecomp",
+      "title": "WWF No Mercy Recompilation",
+      "titleCn": "WWF No Mercy（中文名待核）重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting, Sports",
+      "description": "这是《WWF No Mercy》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/jessetbh/WWFNoMercyRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/wwf-no-mercy-recompilation.webp",
+      "github": {
+        "owner": "jessetbh",
+        "repository": "WWFNoMercyRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jessetbh-wwfwrestlemania2000recomp",
+      "title": "WWF WrestleMania 2000 Recompilation",
+      "titleCn": "WWF 摔角狂热 2000重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting, Sports",
+      "description": "这是《WWF WrestleMania 2000》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/jessetbh/WWFWrestleMania2000Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/wwf-wrestlemania-2000-recompilation.webp",
+      "github": {
+        "owner": "jessetbh",
+        "repository": "WWFWrestleMania2000Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jessicanataliagta-psprecomp",
+      "title": "GTA: Vice City Stories Recompilation",
+      "titleCn": "侠盗猎车手：罪恶都市传奇重编译",
+      "platform": "PSP",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Sandbox, Action",
+      "description": "这是《GTA: Vice City Stories》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/jessicanataliagta/PSPRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/gta-vice-city-stories-recompilation.webp",
+      "github": {
+        "owner": "jessicanataliagta",
+        "repository": "PSPRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jpcarstech-gt2recomp",
+      "title": "Gran Turismo 2 Recompilation",
+      "titleCn": "跑车浪漫旅 2重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "1999 年 PlayStation 赛车作品以庞大车辆阵容和拟真取向扩大了主机赛车游戏的规模；重编译项目的亮点是保存内容并改善现代平台体验。",
+      "projectUrl": "https://github.com/jpcarstech/GT2Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/gran-turismo-2-recompilation.webp",
+      "github": {
+        "owner": "jpcarstech",
+        "repository": "GT2Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "jrickey-battleship",
+      "title": "Battleship - Smash Brothers 64 PC Port",
+      "titleCn": "任天堂明星大乱斗移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/JRickey/BattleShip",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/battleship-smash-brothers-64-pc-port.webp",
+      "github": {
+        "owner": "JRickey",
+        "repository": "BattleShip",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "kandowontu-simtower-native-windows-port",
+      "title": "Sim Tower Port",
+      "titleCn": "模拟大楼移植版",
+      "platform": "PC",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Business Simulator, Strategy",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/kandowontu/simtower-native-windows-port",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/sim-tower-port.webp",
+      "github": {
+        "owner": "kandowontu",
+        "repository": "simtower-native-windows-port",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "kazuyette-rr-decomp",
+      "title": "Ridge Racer Recompilation",
+      "titleCn": "山脊赛车重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "Namco 的山脊赛车系列是 PlayStation 早期 3D 赛车的重要代表，以漂移手感、街机节奏和硬件展示属性闻名；重编译项目侧重保留原作手感并适配现代设备。",
+      "projectUrl": "https://github.com/kazuyette/rr-decomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ridge-racer-recompilation.webp",
+      "github": {
+        "owner": "kazuyette",
+        "repository": "rr-decomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "khasinski-rage-racer-pc",
+      "title": "Rage Racer PC Port",
+      "titleCn": "狂热赛车移植版",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/khasinski/rage-racer-pc",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/rage-racer-pc-port.webp",
+      "github": {
+        "owner": "khasinski",
+        "repository": "rage-racer-pc",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "kirby1237-puyopuyoboxrecomp",
+      "title": "Puyo Puyo Box Recompilation",
+      "titleCn": "噗哟噗哟重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Puzzle",
+      "description": "这是《Puyo Puyo Box》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/kirby1237/PuyoPuyoBoxRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/puyo-puyo-box-recompilation.webp",
+      "github": {
+        "owner": "kirby1237",
+        "repository": "PuyoPuyoBoxRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "klorfmorf-goemon64recomp",
+      "title": "Mystical Ninja Starring Goemon Recompilation",
+      "titleCn": "神奇忍者：主演五右卫门重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, RPG",
+      "description": "这是《Mystical Ninja Starring Goemon》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/klorfmorf/Goemon64Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mystical-ninja-starring-goemon-recompilation.webp",
+      "github": {
+        "owner": "klorfmorf",
+        "repository": "Goemon64Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "klorfmorf-mnsgrecompredubmod",
+      "title": "Mystical Ninja Starring Goemon Recompilation Mods​",
+      "titleCn": "神奇忍者：主演五右卫门",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Utility",
+      "description": "这是围绕经典游戏的社区扩展内容，历史意义主要来自玩家持续维护、画面/玩法改造和保存生态；它不代表新的官方商业发行，条目页面未提供销量数据。",
+      "projectUrl": "https://github.com/klorfmorf/MNSGRecompRedubMod",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mystical-ninja-starring-goemon-recompilation-mods.webp",
+      "github": {
+        "owner": "klorfmorf",
+        "repository": "MNSGRecompRedubMod",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "linkssy2-roadrash64recompiled",
+      "title": "Road Rash 64 Recompilation",
+      "titleCn": "暴力摩托重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing, Action",
+      "description": "这是《Road Rash 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/linkssy2/RoadRash64Recompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/road-rash-64-recompilation.webp",
+      "github": {
+        "owner": "linkssy2",
+        "repository": "RoadRash64Recompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "littlebitua-downpourrecomp",
+      "title": "Silent Hill: Downpour Recompilation",
+      "titleCn": "寂静岭重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Survival Horror",
+      "description": "《寂静岭》以心理恐怖、雾景、声音设计和多结局叙事成为生存恐怖史上的重要作品；PC 项目的突出点是保存原版氛围并改善现代系统兼容。",
+      "projectUrl": "https://github.com/LittleBitUA/DownpourRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/silent-hill-downpour-recompilation.webp",
+      "github": {
+        "owner": "LittleBitUA",
+        "repository": "DownpourRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "littlebitua-dprecomp",
+      "title": "Deadly Premonition Recompilation",
+      "titleCn": "致命预感重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Survival Horror",
+      "description": "这是《Deadly Premonition》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/LittleBitUA/DPRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/deadly-premonition-recompilation.webp",
+      "github": {
+        "owner": "LittleBitUA",
+        "repository": "DPRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "madxbio97-sf-pc-port",
+      "title": "Syphon Filter Recompilation",
+      "titleCn": "虹吸战士重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Stealth, Action",
+      "description": "这是《Syphon Filter》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Madxbio97/SF-pc-port",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/syphon-filter-recompilation.webp",
+      "github": {
+        "owner": "Madxbio97",
+        "repository": "SF-pc-port",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "masterspike52-redahm",
+      "title": "Destroy All Humans: Path of the Furon Recompilation",
+      "titleCn": "毁灭全人类重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action",
+      "description": "这是《Destroy All Humans: Path of the Furon》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/masterspike52/redahm",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/destroy-all-humans-path-of-the-furon-recompilation.webp",
+      "github": {
+        "owner": "masterspike52",
+        "repository": "redahm",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "matteo842-crashbandicoot-launcher",
+      "title": "Crash Bandicoot PC Port",
+      "titleCn": "古惑狼移植版",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "顽皮狗的 PlayStation 平台系列是 1990 年代主机吉祥物竞争的重要参与者，以线性关卡、箱子收集和高难度著称；PC 端口项目主要解决现代运行与输入适配。",
+      "projectUrl": "https://github.com/Matteo842/CrashBandicoot-Launcher",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/crash-bandicoot-pc-port.webp",
+      "github": {
+        "owner": "Matteo842",
+        "repository": "CrashBandicoot-Launcher",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mchughalex-skate3recomp",
+      "title": "Skate 3 Recompilation 2",
+      "titleCn": "滑板 3",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Sports, Action",
+      "description": "这是《Skate 3》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mchughalex/skate3recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/skate-3-recompilation-2.webp",
+      "github": {
+        "owner": "mchughalex",
+        "repository": "skate3recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "megaman64recomp-megaman64recompiled",
+      "title": "Mega Man 64 Recompilation",
+      "titleCn": "洛克人重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Third Person Shooter",
+      "description": "这是《Mega Man 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/MegaMan64Recomp/MegaMan64Recompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mega-man-64-recompilation.webp",
+      "github": {
+        "owner": "MegaMan64Recomp",
+        "repository": "MegaMan64Recompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-apeescaperecomp",
+      "title": "Ape Escape Recompilation",
+      "titleCn": "捉猴啦重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是《Ape Escape》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/ApeEscapeRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ape-escape-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "ApeEscapeRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-dragonballzbuusfuryrecomp",
+      "title": "Dragon Ball Z: Buu's Fury Recompilation",
+      "titleCn": "龙珠 Z重编译",
+      "platform": "GBA",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, RPG",
+      "description": "这是《Dragon Ball Z: Buu's Fury》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/DragonBallZBuusFuryRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dragon-ball-z-buus-fury-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "DragonBallZBuusFuryRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-mariokartsupercircuitrecomp",
+      "title": "Mario Kart: Super Circuit Recompilation",
+      "titleCn": "马力欧赛车：超级巡回赛重编译",
+      "platform": "GBA",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Mario Kart: Super Circuit》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/MarioKartSuperCircuitRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mario-kart-super-circuit-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "MarioKartSuperCircuitRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-megamanx4recomp",
+      "title": "Mega Man X4 Recompilation",
+      "titleCn": "洛克人重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Action",
+      "description": "这是《Mega Man X4》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/MegaManX4Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mega-man-x4-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "MegaManX4Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-megamanx5recomp",
+      "title": "Mega Man X5 Recompilation",
+      "titleCn": "洛克人重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Action",
+      "description": "这是《Mega Man X5》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/MegaManX5Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mega-man-x5-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "MegaManX5Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-megamanx6recomp",
+      "title": "Mega Man X6 Recompilation",
+      "titleCn": "洛克人重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Action",
+      "description": "这是《Mega Man X6》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/MegaManX6Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mega-man-x6-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "MegaManX6Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-metroidprimehuntersrecomp",
+      "title": "Metroid Prime Hunters Recompilation",
+      "titleCn": "银河战士 Prime：猎人重编译",
+      "platform": "NDS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "First Person Shooter, Metroidvania",
+      "description": "这是《Metroid Prime Hunters》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/MetroidPrimeHuntersRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/metroid-prime-hunters-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "MetroidPrimeHuntersRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-pokemonstadiumrecomp",
+      "title": "Pokemon Stadium Recompilation",
+      "titleCn": "宝可梦重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Strategy",
+      "description": "宝可梦系列是全球最成功的跨媒体 IP 之一，掌机交换、收集和对战机制形成了持久社群；这些重编译/端口项目的重点是现代平台保存，而不是重新发行官方版本。",
+      "projectUrl": "https://github.com/mstan/PokemonStadiumRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/pokemon-stadium-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "PokemonStadiumRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-tomba2recomp",
+      "title": "Tomba! 2: The Evil Swine Return Recompilation",
+      "titleCn": "淘金者重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是《Tomba! 2: The Evil Swine Return》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/Tomba2Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/tomba-2-the-evil-swine-return-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "Tomba2Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "mstan-tombarecomp",
+      "title": "Tomba! Recompilation",
+      "titleCn": "淘金者重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Adventure",
+      "description": "这是《Tomba!》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/mstan/TombaRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/tomba-recompilation.webp",
+      "github": {
+        "owner": "mstan",
+        "repository": "TombaRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "novapowers0-bloodyroar2recomp",
+      "title": "Bloody Roar 2 Recompilation",
+      "titleCn": "撕裂重罪重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Bloody Roar 2》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/novapowers0/BloodyRoar2Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/bloody-roar-2-recompilation.webp",
+      "github": {
+        "owner": "novapowers0",
+        "repository": "BloodyRoar2Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "novapowers0-db-final-bout-recomp",
+      "title": "Dragon Ball GT Final Bout Recompilation",
+      "titleCn": "龙珠 GT：最终决战重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Dragon Ball GT Final Bout》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/novapowers0/DB-Final-Bout-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dragon-ball-gt-final-bout-recompilation.webp",
+      "github": {
+        "owner": "novapowers0",
+        "repository": "DB-Final-Bout-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "novapowers0-dbz-budokai-3-hd-collection",
+      "title": "Dragon Ball Z Budokai 3 HD Collection Recompilation",
+      "titleCn": "龙珠 Z重编译",
+      "platform": "PS2",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Dragon Ball Z Budokai 3 HD Collection》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dragon-ball-z-budokai-3-hd-collection-recompilation.webp",
+      "github": {
+        "owner": "novapowers0",
+        "repository": "DBZ-Budokai-3-HD-Collection",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "omegakatana92-gundam-seed-battle-assault-recomp",
+      "title": "Gundam SEED: Battle Assault Recompilation",
+      "titleCn": "高达 SEED重编译",
+      "platform": "GBA",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Gundam SEED: Battle Assault》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/omegakatana92/Gundam-Seed-Battle-Assault-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/gundam-seed-battle-assault-recompilation.webp",
+      "github": {
+        "owner": "omegakatana92",
+        "repository": "Gundam-Seed-Battle-Assault-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "omegakatana92-ridgeracer4recomp",
+      "title": "Ridge Racer Type 4 Recompilation",
+      "titleCn": "山脊赛车重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "Namco 的山脊赛车系列是 PlayStation 早期 3D 赛车的重要代表，以漂移手感、街机节奏和硬件展示属性闻名；重编译项目侧重保留原作手感并适配现代设备。",
+      "projectUrl": "https://github.com/omegakatana92/RidgeRacer4Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ridge-racer-type-4-recompilation.webp",
+      "github": {
+        "owner": "omegakatana92",
+        "repository": "RidgeRacer4Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "oneup03-banjorecomp3d",
+      "title": "Banjo Kazooie Recompiled Stereoscopic 3D",
+      "titleCn": "班卓熊大冒险",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "Rare 在任天堂 64 时代的 3D 平台代表作，以收集、探索和双角色能力见长；重编译项目使高分辨率、宽屏和 PC 模组成为可能。",
+      "projectUrl": "https://github.com/oneup03/BanjoRecomp3D",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/banjo-kazooie-recompiled-stereoscopic-3d.webp",
+      "github": {
+        "owner": "oneup03",
+        "repository": "BanjoRecomp3D",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "oneup03-perfect-dark-3d",
+      "title": "Perfect Dark Recompiled Stereoscopic 3D",
+      "titleCn": "完美黑暗",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "First Person Shooter",
+      "description": "这是围绕经典游戏的社区扩展内容，历史意义主要来自玩家持续维护、画面/玩法改造和保存生态；它不代表新的官方商业发行，条目页面未提供销量数据。",
+      "projectUrl": "https://github.com/oneup03/perfect_dark_3D",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/perfect-dark-recompiled-stereoscopic-3d.webp",
+      "github": {
+        "owner": "oneup03",
+        "repository": "perfect_dark_3D",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "open-goal-jak-project",
+      "title": "OpenGoal - Jak & Daxter, Jak 2 and Jak 3 Native PC Ports",
+      "titleCn": "杰克与达斯特",
+      "platform": "PS2",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Action",
+      "description": "顽皮狗在 PlayStation 2 时代的重要 3D 平台系列，连续作品展示了开放区域、动作平台和技术管线的演进；OpenGOAL 的价值在于原生 PC 化和社区扩展。",
+      "projectUrl": "https://github.com/open-goal/jak-project",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/opengoal-jak-daxter-jak-2-and-jak-3-native-pc-ports.webp",
+      "github": {
+        "owner": "open-goal",
+        "repository": "jak-project",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "opendriver2-redriver2",
+      "title": "ReDriver2 - Driver 2 PC Port",
+      "titleCn": "疯狂出租车手 2移植版",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Driving Simulator, Action",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/OpenDriver2/REDRIVER2",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/redriver2-driver-2-pc-port.webp",
+      "github": {
+        "owner": "OpenDriver2",
+        "repository": "REDRIVER2",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "patchzyy-wiicompiled",
+      "title": "Wiicompiled - Mario Kart Wii Recompilation",
+      "titleCn": "马力欧赛车 Wii重编译",
+      "platform": "WII",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Wiicompiled - Mario Kart Wii》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/patchzyy/Wiicompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/wiicompiled-mario-kart-wii-recompilation.webp",
+      "github": {
+        "owner": "patchzyy",
+        "repository": "Wiicompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "paulogaab21-ufc3recomp",
+      "title": "UFC Undisputed 3 Recompilation",
+      "titleCn": "UFC 终极格斗 3重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《UFC Undisputed 3》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/paulogaab21/ufc3recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ufc-undisputed-3-recompilation.webp",
+      "github": {
+        "owner": "paulogaab21",
+        "repository": "ufc3recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "portingpete-skate3-recomp",
+      "title": "Skate 3 Recompilation 1",
+      "titleCn": "滑板 3",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Sports, Action",
+      "description": "这是《Skate 3》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/portingpete/skate3-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/skate-3-recompilation-1.webp",
+      "github": {
+        "owner": "portingpete",
+        "repository": "skate3-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "psxrestore-condemned2recomp",
+      "title": "Condemned 2: Bloodshot Recompilation",
+      "titleCn": "惩罚 2：血色警戒重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Survival Horror",
+      "description": "这是《Condemned 2: Bloodshot》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/psxrestore/Condemned2Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/condemned-2-bloodshot-recompilation.webp",
+      "github": {
+        "owner": "psxrestore",
+        "repository": "Condemned2Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "rainchus-chameleontwist1-jp-recomp",
+      "title": "Chameleon Twist Recompilation",
+      "titleCn": "变色龙扭曲重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是《Chameleon Twist》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Rainchus/ChameleonTwist1-JP-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/chameleon-twist-recompilation.webp",
+      "github": {
+        "owner": "Rainchus",
+        "repository": "ChameleonTwist1-JP-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "rainchus-quest64-recomp",
+      "title": "Quest 64 Recompilation",
+      "titleCn": "64 号任务重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Action",
+      "description": "这是《Quest 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Rainchus/Quest64-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/quest-64-recompilation.webp",
+      "github": {
+        "owner": "Rainchus",
+        "repository": "Quest64-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "revosucks-bm64recomp",
+      "title": "Bomberman 64 Recompilation",
+      "titleCn": "炸弹人重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Puzzle",
+      "description": "这是《Bomberman 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/RevoSucks/BM64Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/bomberman-64-recompilation.webp",
+      "github": {
+        "owner": "RevoSucks",
+        "repository": "BM64Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "revosucks-bmherorecomp",
+      "title": "Bomberman Hero Recompilation",
+      "titleCn": "炸弹人重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Adventure, Action",
+      "description": "这是《Bomberman Hero》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/RevoSucks/BMHeroRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/bomberman-hero-recompilation.webp",
+      "github": {
+        "owner": "RevoSucks",
+        "repository": "BMHeroRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "roborich-shipwright",
+      "title": "Ship of Harkinian - Zelda Ocarina of Time Port - Cel Shaded Model Mod",
+      "titleCn": "塞尔达传说：时之笛模组",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG, Adventure",
+      "description": "1998 年《时之笛》常被视为 3D 动作冒险设计的里程碑，锁定系统、场景结构和音乐影响深远；Ship of Harkinian 让经典作品获得高分辨率、宽屏和模组生态。",
+      "projectUrl": "https://github.com/roborich/Shipwright",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ship-of-harkinian-zelda-ocarina-of-time-port-cel-shaded-model-mod.webp",
+      "github": {
+        "owner": "roborich",
+        "repository": "Shipwright",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "ronniecloud-re-wor",
+      "title": "Guitar Hero: Warriors of Rock Recompilation",
+      "titleCn": "吉他英雄重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Rhythm Based",
+      "description": "这是《Guitar Hero: Warriors of Rock》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/ronniecloud/re-wor",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/guitar-hero-warriors-of-rock-recompilation.webp",
+      "github": {
+        "owner": "ronniecloud",
+        "repository": "re-wor",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "rsdkmodding-sonic-mania-decompilation",
+      "title": "Sonic Mania Decompilation",
+      "titleCn": "索尼克狂热",
+      "platform": "PC",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "2017 年作品以复古 2D 关卡设计重新获得系列粉丝认可；其社区反编译项目突出在于研究现代 Sonic 2D 引擎并支持扩展内容。",
+      "projectUrl": "https://github.com/RSDKModding/Sonic-Mania-Decompilation",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/sonic-mania-decompilation.webp",
+      "github": {
+        "owner": "RSDKModding",
+        "repository": "Sonic-Mania-Decompilation",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "sal063-ac6-recomp",
+      "title": "Ace Combat 6 Recompilation",
+      "titleCn": "皇牌空战重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Combat Flight Simulator",
+      "description": "皇牌空战以街机化飞行操作、任务叙事和架空世界观形成稳定特色；重编译项目的价值在于让不同主机时代的飞行作品继续可玩。",
+      "projectUrl": "https://github.com/sal063/AC6_recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ace-combat-6-recompilation.webp",
+      "github": {
+        "owner": "sal063",
+        "repository": "AC6_recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "sal063-ace-combat-x-recompilation",
+      "title": "Ace Combat X Recompilation",
+      "titleCn": "皇牌空战重编译",
+      "platform": "PSP",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Combat Flight Simulator",
+      "description": "皇牌空战以街机化飞行操作、任务叙事和架空世界观形成稳定特色；重编译项目的价值在于让不同主机时代的飞行作品继续可玩。",
+      "projectUrl": "https://github.com/sal063/Ace-Combat-X-Recompilation",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ace-combat-x-recompilation.webp",
+      "github": {
+        "owner": "sal063",
+        "repository": "Ace-Combat-X-Recompilation",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "samsteprojects-legend-of-legaia-recomp",
+      "title": "Legend of Legaia Recompilation",
+      "titleCn": "盖亚传奇重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG",
+      "description": "这是《Legend of Legaia》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/SamSteProjects/legend-of-legaia-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/legend-of-legaia-recompilation.webp",
+      "github": {
+        "owner": "SamSteProjects",
+        "repository": "legend-of-legaia-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "slickamogus-silent-hill-decomp",
+      "title": "Silent Hill PC Port",
+      "titleCn": "寂静岭移植版",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Survival Horror",
+      "description": "《寂静岭》以心理恐怖、雾景、声音设计和多结局叙事成为生存恐怖史上的重要作品；PC 项目的突出点是保存原版氛围并改善现代系统兼容。",
+      "projectUrl": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/silent-hill-pc-port.webp",
+      "github": {
+        "owner": "SlickAmogus",
+        "repository": "silent-hill-decomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "smcgames-paper-mario-recut",
+      "title": "ReCut - Paper Mario Recompilation",
+      "titleCn": "纸片马力欧重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG",
+      "description": "任天堂以纸片视觉包装 RPG 系统的代表作，角色叙事、回合战斗和幽默风格使其拥有长期粉丝基础；ReCut 的意义在于社区保存和原生化探索。",
+      "projectUrl": "https://github.com/SMCGames/Paper-Mario-ReCut",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/recut-paper-mario-recompilation.webp",
+      "github": {
+        "owner": "SMCGames",
+        "repository": "Paper-Mario-ReCut",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "solarcookies-tip-recomp",
+      "title": "Viva Pinata: Trouble in Paradise Recompilation",
+      "titleCn": "宝贝万岁重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Life Simulator, Management Simulator",
+      "description": "Rare 的生活模拟作品把花园经营、生态关系和收集结合起来，因美术与系统深度而形成小众口碑；重编译项目让这类 Xbox 360 作品更容易被保存。",
+      "projectUrl": "https://github.com/SolarCookies/TiP-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/viva-pinata-trouble-in-paradise-recompilation.webp",
+      "github": {
+        "owner": "SolarCookies",
+        "repository": "TiP-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "sonicdcer-dnzhrecomp",
+      "title": "Duke Nukem Zero Hour Recompilation",
+      "titleCn": "毁灭公爵：零时重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Third Person Shooter",
+      "description": "1999 年任天堂 64 第一人称射击作品，属于主机版《毁灭公爵》中的少见条目；重编译项目的突出点是现代渲染、输入和 PC 运行支持。",
+      "projectUrl": "https://github.com/sonicdcer/DNZHRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/duke-nukem-zero-hour-recompilation.webp",
+      "github": {
+        "owner": "sonicdcer",
+        "repository": "DNZHRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "sonicdcer-mariokart64recomp",
+      "title": "Mario Kart 64 Recompilation",
+      "titleCn": "马力欧赛车 64重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Mario Kart 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/sonicdcer/MarioKart64Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mario-kart-64-recompilation.webp",
+      "github": {
+        "owner": "sonicdcer",
+        "repository": "MarioKart64Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "sonicdcer-starfox64recomp",
+      "title": "Star Fox 64 Recompilation",
+      "titleCn": "星际火狐 64重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Rail Shooter",
+      "description": "这是《Star Fox 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/sonicdcer/Starfox64Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/star-fox-64-recompilation.webp",
+      "github": {
+        "owner": "sonicdcer",
+        "repository": "Starfox64Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "spacefarergames-ecstaticarecompiled",
+      "title": "Ecstatica 1 and 2 Recompilation",
+      "titleCn": "Ecstatica（中文名待核）重编译",
+      "platform": "PC",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Survival Horror, Action",
+      "description": "这是《Ecstatica 1 and 2》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/spacefarergames/EcstaticaRecompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/ecstatica-1-and-2-recompilation.webp",
+      "github": {
+        "owner": "spacefarergames",
+        "repository": "EcstaticaRecompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "ssunnking-open-nectar-pikmin-decompilation-linux-port",
+      "title": "Pikmin Recompilation",
+      "titleCn": "皮克敏重编译",
+      "platform": "NGC",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Strategy",
+      "description": "任天堂将即时策略、资源管理与探索结合的独特系列，建立了“指挥小生物解决环境谜题”的玩法；社区项目的价值在于保存早期 GameCube 作品并扩展平台支持。",
+      "projectUrl": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Decompilation-Linux-Port",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/pikmin-recompilation.webp",
+      "github": {
+        "owner": "SSunnKing",
+        "repository": "Open-Nectar---Pikmin-Decompilation-Linux-Port",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "strider973-einhander-recompiled",
+      "title": "Einhander Recompilation",
+      "titleCn": "雷霆战机重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Shoot Em Up",
+      "description": "这是《Einhander》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/strider973/Einhander-Recompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/einhander-recompilation.webp",
+      "github": {
+        "owner": "strider973",
+        "repository": "Einhander-Recompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "strider973-street-fighter-ex2-plus-recompiled",
+      "title": "Street Fighter EX2 Plus Recompilation",
+      "titleCn": "街头霸王重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "街头霸王系列尤其是 II 与 III 系列，对格斗游戏的角色、必杀技、连段和街机竞技文化影响深远；重编译项目的价值在于保存不同版本和扩展本地/现代运行支持。",
+      "projectUrl": "https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/street-fighter-ex2-plus-recompilation.webp",
+      "github": {
+        "owner": "strider973",
+        "repository": "Street-Fighter-EX2-Plus-Recompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "strider973-strider-2-recompiled",
+      "title": "Strider 2 Recompilation",
+      "titleCn": "出击飞龙 2重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer, Action",
+      "description": "这是《Strider 2》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/strider973/STRIDER-2-Recompiled",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/strider-2-recompilation.webp",
+      "github": {
+        "owner": "strider973",
+        "repository": "STRIDER-2-Recompiled",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "subarasheese-daytona-xbla-recomp",
+      "title": "Daytona USA Recompilation",
+      "titleCn": "代托纳 USA重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Daytona USA》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Subarasheese/daytona-xbla-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/daytona-usa-recompilation.webp",
+      "github": {
+        "owner": "Subarasheese",
+        "repository": "daytona-xbla-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "sunjaycy-goldeneye-recomp",
+      "title": "Goldeneye XBLA Recompilation",
+      "titleCn": "黄金眼 007重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "First Person Shooter",
+      "description": "这是《Goldeneye XBLA》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/SunJaycy/GoldenEye-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/goldeneye-xbla-recompilation.webp",
+      "github": {
+        "owner": "SunJaycy",
+        "repository": "GoldenEye-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-battleship",
+      "title": "Battleship - Smash Brothers 64 PC Port Netplay",
+      "titleCn": "任天堂明星大乱斗",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/BattleShip",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/battleship-smash-brothers-64-pc-port-netplay.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "BattleShip",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-bomberman-fantasy-race-recomp",
+      "title": "Bomberman Fantasy Race Recompilation",
+      "titleCn": "炸弹人重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Bomberman Fantasy Race》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/bomberman-fantasy-race-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "Bomberman-Fantasy-Race-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-bomberman-world-recomp",
+      "title": "Bomberman World Recompilation",
+      "titleCn": "炸弹人重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Strategy",
+      "description": "这是《Bomberman World》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/Bomberman-World-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/bomberman-world-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "Bomberman-World-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-bombermanpartyeditionrecomp",
+      "title": "Bomberman Party Edition Recompilation",
+      "titleCn": "炸弹人重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Strategy",
+      "description": "这是《Bomberman Party Edition》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/bomberman-party-edition-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "BombermanPartyEditionRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-klonoa-door-to-phantomile",
+      "title": "Klonoa - Door to Phantomile Recompilation",
+      "titleCn": "风之克罗诺亚重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是《Klonoa - Door to Phantomile》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/klonoa-door-to-phantomile-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "Klonoa-Door-to-Phantomile",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-marvel-vs-capcom-clash-of-super-heroes-recomp",
+      "title": "Marvel vs. Capcom: Clash of Super Heroes Recompilation",
+      "titleCn": "漫威 vs. 卡普空重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Marvel vs. Capcom: Clash of Super Heroes》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/marvel-vs.-capcom-clash-of-super-heroes-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-mastersofteraskasirecomp",
+      "title": "Star Wars: Masters of Teras Kasi Recompilation",
+      "titleCn": "星球大战重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是《Star Wars: Masters of Teras Kasi》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/star-wars-masters-of-teras-kasi-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "MastersOfTerasKasiRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-rampage-through-time-recomp",
+      "title": "Rampage Through Time Recompilation",
+      "titleCn": "狂暴：穿越时空重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action",
+      "description": "这是《Rampage Through Time》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/rampage-through-time-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "Rampage---Through-Time-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-star-wars-episode-i-jedi-power-battles-recomp",
+      "title": "Star Wars - Episode I - Jedi Power Battles Recompilation",
+      "titleCn": "星球大战重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Best Em Up",
+      "description": "这是《Star Wars - Episode I - Jedi Power Battles》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/star-wars-episode-i-jedi-power-battles-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "Star-wars---Episode-I---Jedi-Power-Battles-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-street-fighter-alpha-3-recomp",
+      "title": "Street Fighter Aplha 3 Recompilation",
+      "titleCn": "街头霸王重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "街头霸王系列尤其是 II 与 III 系列，对格斗游戏的角色、必杀技、连段和街机竞技文化影响深远；重编译项目的价值在于保存不同版本和扩展本地/现代运行支持。",
+      "projectUrl": "https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/street-fighter-aplha-3-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "Street-Fighter-Alpha-3-Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "technicallycomputers-twistedmetal4recomp",
+      "title": "Twisted Metal 4 Recompilation",
+      "titleCn": "烈火战车重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Vehicular Combat",
+      "description": "这是《Twisted Metal 4》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/TechnicallyComputers/TwistedMetal4Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/twisted-metal-4-recompilation.webp",
+      "github": {
+        "owner": "TechnicallyComputers",
+        "repository": "TwistedMetal4Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "thatguymcd-dkr-r",
+      "title": "Diddy Kong Racing Recompilation",
+      "titleCn": "迪迪刚赛车重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是《Diddy Kong Racing》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/ThatGuyMcd/DKR-R",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/diddy-kong-racing-recompilation.webp",
+      "github": {
+        "owner": "ThatGuyMcd",
+        "repository": "DKR-R",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "theboy181-drmario64-recomp-plus",
+      "title": "Dr. Mario 64 Recompilation",
+      "titleCn": "马力欧医生 64重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Puzzle",
+      "description": "这是《Dr. Mario 64》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/theboy181/drmario64_recomp_plus",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dr.-mario-64-recompilation.webp",
+      "github": {
+        "owner": "theboy181",
+        "repository": "drmario64_recomp_plus",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "theokyr-project8recomp",
+      "title": "Tony Hawk's Project 8 Recompilation",
+      "titleCn": "托尼·霍克：职业滑板 8重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Sports, Action",
+      "description": "托尼·霍克系列推动了滑板文化进入主流游戏市场，以连招、关卡目标和原声音乐著称；项目重编译主要面向现代系统兼容和输入/画面改进。",
+      "projectUrl": "https://github.com/theokyr/Project8Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/tony-hawks-project-8-recompilation.webp",
+      "github": {
+        "owner": "theokyr",
+        "repository": "Project8Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "thiagolira-trouble-makers-pc-recomp",
+      "title": "Mischief Makers Recompilation",
+      "titleCn": "捣蛋小子重编译",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Platformer",
+      "description": "这是《Mischief Makers》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/ThiagoLira/trouble-makers-pc-recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/mischief-makers-recompilation.webp",
+      "github": {
+        "owner": "ThiagoLira",
+        "repository": "trouble-makers-pc-recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "unchiga-yugiohforbiddenmemoriesrecomp",
+      "title": "Yu-Gi-Oh! Forbidden Memories Recompilation",
+      "titleCn": "游戏王：被封印的记忆重编译",
+      "platform": "PS",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Card Collector, RPG",
+      "description": "这是《Yu-Gi-Oh! Forbidden Memories》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/yu-gi-oh-forbidden-memories-recompilation.webp",
+      "github": {
+        "owner": "Unchiga",
+        "repository": "YuGiOhForbiddenMemoriesRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "updeshxp-sf3tsoereborn",
+      "title": "Street Fighter 3: 3rd Strike Online Edition Recompilation",
+      "titleCn": "街头霸王重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "街头霸王系列尤其是 II 与 III 系列，对格斗游戏的角色、必杀技、连段和街机竞技文化影响深远；重编译项目的价值在于保存不同版本和扩展本地/现代运行支持。",
+      "projectUrl": "https://github.com/updeshxp/SF3TSOEReborn",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/street-fighter-3-3rd-strike-online-edition-recompilation.webp",
+      "github": {
+        "owner": "updeshxp",
+        "repository": "SF3TSOEReborn",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "wistfulhopes-dbz1",
+      "title": "Dragon Ball Z Budokai HD Recompiled",
+      "titleCn": "龙珠 Z",
+      "platform": "PS2",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Fighting",
+      "description": "这是社区保存/移植目录中的项目。现有公开条目主要提供项目链接，缺少足够资料来可靠概括销量或行业评价；突出点可先理解为现代平台兼容与长期保存价值。",
+      "projectUrl": "https://github.com/WistfulHopes/DBZ1",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dragon-ball-z-budokai-hd-recompiled.webp",
+      "github": {
+        "owner": "WistfulHopes",
+        "repository": "DBZ1",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "wivi514-dead-rising-2-case-west-xenon-recomp",
+      "title": "Dead Rising 2: Case West Recompilation",
+      "titleCn": "丧尸围城 2重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Survival Horror",
+      "description": "这是《Dead Rising 2: Case West》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dead-rising-2-case-west-recompilation.webp",
+      "github": {
+        "owner": "wivi514",
+        "repository": "Dead_Rising_2_Case_West_Xenon_Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "wivi514-dead-rising-2-case-zero-xenon-recomp",
+      "title": "Dead Rising 2: Case Zero Recompilation",
+      "titleCn": "丧尸围城 2重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Survival Horror",
+      "description": "这是《Dead Rising 2: Case Zero》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/dead-rising-2-case-zero-recompilation.webp",
+      "github": {
+        "owner": "wivi514",
+        "repository": "Dead_Rising_2_Case_Zero_Xenon_Recomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "yestermester-thesimpsonsgamerecomp",
+      "title": "The Simpsons Game Recompilation",
+      "titleCn": "辛普森一家游戏重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Action, Platformer",
+      "description": "《辛普森一家》是知名电视 IP 的游戏化作品，具有明显的跨媒体与授权游戏历史价值；重编译项目的重点在于保存一款容易受授权影响而难以再版的作品。",
+      "projectUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/the-simpsons-game-recompilation.webp",
+      "github": {
+        "owner": "YesterMester",
+        "repository": "TheSimpsonsGameRecomp",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
       "tagPattern": null,
       "enabled": true
     },
@@ -26,7 +4210,11 @@
       "title": "Zelda 64 Recompiled",
       "titleCn": "塞尔达 64 重编译",
       "platform": "N64",
-      "runtimePlatforms": ["windows", "linux", "macos"],
+      "runtimePlatforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
       "genres": "Action Adventure",
       "description": "Majora's Mask 的静态重编译项目，面向桌面平台发布。",
       "projectUrl": "https://github.com/Zelda64Recomp/Zelda64Recomp",
@@ -37,7 +4225,67 @@
         "branch": "dev"
       },
       "versionStrategy": "release",
-      "fallback": ["commit"],
+      "fallback": [
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "zolaware-reblue",
+      "title": "Blue Dragon Recompilation",
+      "titleCn": "蓝龙重编译",
+      "platform": "XBOX360",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "RPG",
+      "description": "这是《Blue Dragon》的社区重编译/重实现项目；其突出点是通过逆向工程或静态重编译改善现代系统兼容、分辨率、输入和模组能力。公开条目未提供可靠的销量或历史评价数字。",
+      "projectUrl": "https://github.com/zolaware/reblue",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/blue-dragon-recompilation.webp",
+      "github": {
+        "owner": "zolaware",
+        "repository": "reblue",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
+      "tagPattern": null,
+      "enabled": true
+    },
+    {
+      "gameId": "zorkats-g-diffuser",
+      "title": "F-Zero X PC Port",
+      "titleCn": "F-Zero X移植版",
+      "platform": "N64",
+      "runtimePlatforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "genres": "Racing",
+      "description": "这是经典主机作品的社区移植项目，主要价值在于保存原作并让其适配现代平台；公开条目未提供可靠的销量或媒体评价数字。",
+      "projectUrl": "https://github.com/Zorkats/G-Diffuser",
+      "coverUrl": "https://thegamingemporium.com/Images/Games/f-zero-x-pc-port.webp",
+      "github": {
+        "owner": "Zorkats",
+        "repository": "G-Diffuser",
+        "branch": null
+      },
+      "versionStrategy": "release",
+      "fallback": [
+        "tag",
+        "commit"
+      ],
       "tagPattern": null,
       "enabled": true
     }
